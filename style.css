@@ -1,0 +1,229 @@
+@charset "utf-8";
+/* CSS Document */
+/*header*/
+
+.header{
+	background: #AED9E0;
+	height:396px;
+	width: 1080px;
+}
+.logo{
+    float: right;
+    margin-right: 70px;
+    margin-top: 72px;
+}
+      
+
+#title{
+    font-family : ae_Sindibad;
+    font-size : 60px;
+    color : #652C8F;
+    text-align: center;
+    padding-top: 90px;
+	
+	
+}
+
+/*body*/
+#speac{
+	
+	
+}
+.maincontent{
+	height: 1359px;
+    width: 1080px;
+	background: url("image/من نحن.png");
+    background-image: url(image/background.png);
+    background-color: #FFFFFF;
+    text-align: center;
+}	
+
+.About-us{
+    font-family: ae_Sindibad;
+	font-size: 65px;
+    color: #652C8F;
+    align: center;
+    text-align: center;
+    margin-top: -963px;
+}
+
+.p-about{
+	  font-family: ae_Sindibad;
+	font-size: 65px;
+    color: #652C8F;
+    align: center;
+    text-align: center;
+	
+	
+}
+.about{
+	 font-family: ae_Sindibad;
+	 font-size: 45px;
+     color: #652C8F;
+     align: center;
+     text-align: center;
+	
+	
+	
+}
+
+.name{
+       font-family : ae_Sindibad;
+       font-size : 46px;
+	   color : #7D469A;
+}
+.text{
+    padding-top: 0px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 70px;
+    margin-top: 30px;
+    color: #7D469A;
+    font-size: 30px;
+    font-family: Adobe Arabic;
+    text-align: center;
+    background-color: #AED9E0;
+    opacity: 0.69;
+}
+#send{
+    font-family : ae_Sindibad;
+    font-size : 30px;
+    color: #7D469A;
+    padding-top: 9px;
+    padding-right: 17px;
+    padding-bottom: 9px;
+    padding-left: 17px;
+    margin-top: 4px;
+    margin-bottom: 21px;
+}
+
+#do-it{
+	
+	
+	
+}
+	/*footer*/
+#footer{
+    height: 197px;
+    width: 1080px;
+    background-color: #D1B25C;
+    background-image: url(image/background.png);
+	align-content: center;
+}
+#footer-plus{
+    height: 340px;
+    width: 1080px;
+    background-color: #D1B25C;
+    background-image: url(image/background.png);
+    align-content: center;
+    margin-top: -208px;
+	
+	
+}
+.p-footer{
+    font-family : ae_Sindibad;
+    font-size : 40px;
+    color : #652C8F;
+    align: right;
+    text-align: right;
+    padding-bottom: 20px;
+    padding-top: 20px;	
+	
+}
+
+.p-p{
+  font-family : Adobe Arabic;
+  font-size : 30px;
+  color : #7D469A;
+  align-content: right;
+	text-align: right;
+}
+.col-xl-6{
+  font-family : Adobe Arabic;
+  font-size : 30px;
+  color : #7D469A;
+ align-content: center;
+ text-align: right;
+
+	
+}
+.icon{
+    align-content: center;
+    margin-right: 205px;
+}
+.col-xl-9{
+    margin-top: -40px;
+}
+.col-xl-12{
+	padding-top: 10px;
+	 margin-top: 20px;
+	align-content: center;
+}
+
+#text{
+    font-family : ae_Sindibad;
+    font-size : 50px;
+    color : #652C8F;
+    align: center;
+    text-align: center;   
+}
+.center{
+	text-align: center;
+	image-align: center;		
+}
+.h3{
+    font-family : Adobe Arabic;
+    font-size : 32px;
+    color : #FFFFFF;
+    padding-left: 826px;
+}
+.maincontent table {
+}
+
+/* Style the navigation menu */
+.topnav {
+    background-color: #7D469A;
+    overflow: hidden;
+    position: relative;
+	margin-top: 144px;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+	height: 90px;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+    background: #557FC8;
+    display: block;
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    height: 89px;
+    width: 111px;
+    margin-top: -12px;
+    margin-right: 5px;
+    align-content: center;
+}
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+  background-color:#557FC8;
+  color: white;
+}
